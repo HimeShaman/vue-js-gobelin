@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>app vue test</title>
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+
+        <div id="app">
+            <div class="container">
+            <router-view></router-view>
+        </div>
+        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+            <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+            <script src="component/searchPage/searchBar.js"></script>
+            <script src="component/searchPage/resultBlock.js"></script>
+
+            <script src="component/creationPage/creationPage.js"></script>
+            <script src="component/searchPage/searchPage.js"></script>
+            <script src="component/viewPage/viewPage.js"></script>
+
+            <script src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+}
+
+a:hover{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    
+}
+
+.bartop{
+    background-image: linear-gradient(to right, #BFE0AF , #D3AA92);
+    padding: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #FFF;
+    font-variant: small-caps;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+h4{
+    display: inline;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+button, button:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search, .search:focus{
+    font-family: 'Playfair Display', serif;
+    color: #516446;
+    font-size: -webkit-xxx-large;
+    border: 0;
+    background-color: transparent;
+    width: 90%;
+    outline: none;
+}
+
+.searchbar{
+    margin: 30px auto;
+    align-content: center;
+    text-align: left;
+    border-bottom: solid 2px grey;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.card{
+    margin: 15px auto;
+    width: 85%;
+    border: solid 1px #707070;
+    padding: 15px;
+}
+
+.cardH:hover{
+    background-color: #EEEAEA;
+}
+
+.imgModel{
+    width: 100%;
+}
+
+.options{
+    padding: 0 49%;
+}
+
+.hashtag{
+    font-size: 9pt;
+    color: #516446;
+    font-weight: 700;
+    padding-left: 18px;
+    font-variant: small-caps;
+}
+
+.animThree{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.getThree{
+display: inline-block;
+padding: 9px 12px;
+margin: 5px;
+font-size: 14px;
+line-height: 20px;
+color: #FFF !important;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-color: #D98753;
+-webkit-border-radius: 3px;
+-webkit-border-radius: 3px;
+-webkit-border-radius: 3px;
+background-image: none !important;
+border: none;
+text-shadow: none;
+box-shadow: none;
+transition: all 0.12s linear 0s !important;
+}
+
+.getThree:hover{
+    background-color: #CC6B2D;
+}
